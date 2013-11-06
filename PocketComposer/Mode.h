@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Constants.h"
+#import "Theory.h"
 #import "Scale.h"
 
 @interface Mode : NSObject {

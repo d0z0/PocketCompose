@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1608ED31182404720018D2FE"
-               BuildableName = "PocketComposer.app"
+               BuildableName = "PocketCompose.app"
                BlueprintName = "PocketCompose"
                ReferencedContainer = "container:PocketCompose.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1608ED55182404730018D2FE"
-               BuildableName = "PocketComposerTests.xctest"
+               BuildableName = "PocketComposeTests.xctest"
                BlueprintName = "PocketComposeTests"
                ReferencedContainer = "container:PocketCompose.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1608ED31182404720018D2FE"
-            BuildableName = "PocketComposer.app"
+            BuildableName = "PocketCompose.app"
             BlueprintName = "PocketCompose"
             ReferencedContainer = "container:PocketCompose.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1608ED31182404720018D2FE"
-            BuildableName = "PocketComposer.app"
+            BuildableName = "PocketCompose.app"
             BlueprintName = "PocketCompose"
             ReferencedContainer = "container:PocketCompose.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1608ED31182404720018D2FE"
-            BuildableName = "PocketComposer.app"
+            BuildableName = "PocketCompose.app"
             BlueprintName = "PocketCompose"
             ReferencedContainer = "container:PocketCompose.xcodeproj">
          </BuildableReference>

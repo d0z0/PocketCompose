@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 Schubert Cardozo. All rights reserved.
 //
 
-#import "Constants.h"
+#import "Theory.h"
 
 @implementation Constants
 
@@ -15,8 +15,7 @@
     static NSArray *names;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        names = @[@"C", @"C#", @"D", @"Eb", @"E",
-				 @"F", @"F#", @"G", @"G#", @"A",  @"Bb", @"B"];
+        names = @[@"C", @"C#", @"D", @"Eb", @"E", @"F", @"F#", @"G", @"G#", @"A",  @"Bb", @"B"];
     });
     return names;
 }

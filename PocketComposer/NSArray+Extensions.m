@@ -23,6 +23,11 @@
 	return rotatedArray;
 }
 
+- (NSMutableArray *)objectAtIndexCircular:(NSInteger)anIndex
+{
+    return [self objectAtIndex:anIndex % [self count]];
+}
+
 
 
 

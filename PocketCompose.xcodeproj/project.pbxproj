@@ -22,7 +22,7 @@
 		1608ED5A182404730018D2FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1608ED39182404720018D2FE /* UIKit.framework */; };
 		1608ED62182404730018D2FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1608ED60182404730018D2FE /* InfoPlist.strings */; };
 		1608ED64182404730018D2FE /* PocketComposerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1608ED63182404730018D2FE /* PocketComposerTests.m */; };
-		16A1C3AF182A280700E7B26F /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A1C3AE182A280700E7B26F /* Constants.m */; };
+		16A1C3AF182A280700E7B26F /* Theory.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A1C3AE182A280700E7B26F /* Theory.m */; };
 		16A1C3B2182A2C6D00E7B26F /* Mode.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A1C3B1182A2C6D00E7B26F /* Mode.m */; };
 		16A1C3B5182A2FAC00E7B26F /* Scale.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A1C3B4182A2FAC00E7B26F /* Scale.m */; };
 		16A1C3BB182A3AE300E7B26F /* NSArray+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A1C3BA182A3AE300E7B26F /* NSArray+Extensions.m */; };
@@ -60,8 +60,8 @@
 		1608ED5F182404730018D2FE /* PocketComposerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PocketComposerTests-Info.plist"; sourceTree = "<group>"; };
 		1608ED61182404730018D2FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1608ED63182404730018D2FE /* PocketComposerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PocketComposerTests.m; sourceTree = "<group>"; };
-		16A1C3AD182A280700E7B26F /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
-		16A1C3AE182A280700E7B26F /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		16A1C3AD182A280700E7B26F /* Theory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Theory.h; sourceTree = "<group>"; };
+		16A1C3AE182A280700E7B26F /* Theory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Theory.m; sourceTree = "<group>"; };
 		16A1C3B0182A2C6D00E7B26F /* Mode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mode.h; sourceTree = "<group>"; };
 		16A1C3B1182A2C6D00E7B26F /* Mode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mode.m; sourceTree = "<group>"; };
 		16A1C3B3182A2FAC00E7B26F /* Scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scale.h; sourceTree = "<group>"; };
@@ -97,8 +97,8 @@
 		1608ED29182404720018D2FE = {
 			isa = PBXGroup;
 			children = (
-				1608ED3B182404720018D2FE /* PocketComposer */,
-				1608ED5D182404730018D2FE /* PocketComposerTests */,
+				1608ED3B182404720018D2FE /* PocketCompose */,
+				1608ED5D182404730018D2FE /* PocketComposeTests */,
 				1608ED34182404720018D2FE /* Frameworks */,
 				1608ED33182404720018D2FE /* Products */,
 			);
@@ -124,11 +124,11 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1608ED3B182404720018D2FE /* PocketComposer */ = {
+		1608ED3B182404720018D2FE /* PocketCompose */ = {
 			isa = PBXGroup;
 			children = (
-				16A1C3AD182A280700E7B26F /* Constants.h */,
-				16A1C3AE182A280700E7B26F /* Constants.m */,
+				16A1C3AD182A280700E7B26F /* Theory.h */,
+				16A1C3AE182A280700E7B26F /* Theory.m */,
 				16A1C3B0182A2C6D00E7B26F /* Mode.h */,
 				16A1C3B1182A2C6D00E7B26F /* Mode.m */,
 				16A1C3B3182A2FAC00E7B26F /* Scale.h */,
@@ -145,6 +145,7 @@
 				16A1C3B9182A3AE300E7B26F /* NSArray+Extensions.h */,
 				16A1C3BA182A3AE300E7B26F /* NSArray+Extensions.m */,
 			);
+			name = PocketCompose;
 			path = PocketComposer;
 			sourceTree = "<group>";
 		};
@@ -159,12 +160,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1608ED5D182404730018D2FE /* PocketComposerTests */ = {
+		1608ED5D182404730018D2FE /* PocketComposeTests */ = {
 			isa = PBXGroup;
 			children = (
 				1608ED63182404730018D2FE /* PocketComposerTests.m */,
 				1608ED5E182404730018D2FE /* Supporting Files */,
 			);
+			name = PocketComposeTests;
 			path = PocketComposerTests;
 			sourceTree = "<group>";
 		};
@@ -274,7 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16A1C3AF182A280700E7B26F /* Constants.m in Sources */,
+				16A1C3AF182A280700E7B26F /* Theory.m in Sources */,
 				16A1C3B5182A2FAC00E7B26F /* Scale.m in Sources */,
 				16A1C3BB182A3AE300E7B26F /* NSArray+Extensions.m in Sources */,
 				1608ED46182404720018D2FE /* AppDelegate.m in Sources */,

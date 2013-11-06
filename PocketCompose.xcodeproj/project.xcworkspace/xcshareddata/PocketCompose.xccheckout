@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>586AE89B-A4B9-4E84-A05B-F601A904605D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PocketCompose</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>782304B1-B192-4574-8693-7E861CB1E38A</key>
+		<string>https://github.com/saturnine/PocketCompose.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PocketCompose.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>782304B1-B192-4574-8693-7E861CB1E38A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/saturnine/PocketCompose.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>782304B1-B192-4574-8693-7E861CB1E38A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>782304B1-B192-4574-8693-7E861CB1E38A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PocketCompose</string>
+		</dict>
+	</array>
+</dict>
+</plist>

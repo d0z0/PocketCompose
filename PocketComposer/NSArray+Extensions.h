@@ -11,5 +11,6 @@
 @interface NSArray  (Extensions)
 
 - (NSMutableArray *)rotateArrayBy:(int)anAmount;
+- (NSMutableArray *)objectAtIndexCircular:(NSInteger)anIndex;
 
 @end

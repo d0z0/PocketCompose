@@ -32,7 +32,6 @@
 	NSMutableArray *notes = [[NSMutableArray alloc] init];
 	int rootIndex = [[Constants noteNames] indexOfObject:root];
 	NSMutableArray *rotatedNoteNames = [[Constants noteNames] rotateArrayBy:rootIndex];
-	//NSMutableArray *rotatedNoteNames = [Constants noteNames];
 	for(NSNumber *interval in [[Constants scaleIntervals] objectForKey:type])
 	{
 		[notes addObject:[rotatedNoteNames objectAtIndex:[interval intValue]]];
