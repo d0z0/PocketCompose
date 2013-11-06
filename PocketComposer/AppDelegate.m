@@ -14,9 +14,9 @@
 {
     // Override point for customization after application launch.
     Scale *testScale = [[Scale alloc] initWithRoot:@"C" type:@"major"];
-    NSLog(@"My scale is %@", testScale.notes);
-    Mode *testMode = [[Mode alloc] initWithRoot:@"A" type:@"aeolian"];
-    NSLog(@"My mode is %@", testMode.notes);
+    NSLog(@"%@ is %@", testScale, testScale.notes);
+    Mode *testMode = [[Mode alloc] initWithRoot:@"D" type:@"dorian"];
+    NSLog(@"%@ is %@", testMode, testMode.notes);
     return YES;
 }
 							

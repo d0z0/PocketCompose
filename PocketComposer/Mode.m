@@ -31,13 +31,18 @@
 	return self;
 }
 
+- (NSString *)description
+{
+	NSString *descriptionString = [[NSString alloc] initWithFormat:@"%@ %@ (%d degree) Mode", root, type, degree];
+	return descriptionString;
+}
+
 - (NSMutableArray *)notes
 {
     int rootIndex = [[Constants noteNames] indexOfObject:root];
-    int modeIndex = [[[Constants modeIndex] objectForKey:@"aeolian"] integerValue];
+    int modeIndex = [[[Constants modeIndex] objectForKey:type] integerValue];
     int majorRootIndex = rootIndex - modeIndex;
     NSString *majorRoot = [[[Constants noteNames] rotateArrayBy:majorRootIndex] objectAtIndex:0];
-    NSLog(@"Major root => %@", majorRoot);
     Scale *majorScale = [[Scale alloc] initWithRoot:majorRoot type:@"major"];
     NSMutableArray *notes = [[majorScale notes] rotateArrayBy:degree];
 	return notes;
