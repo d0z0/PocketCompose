@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1608ED31182404720018D2FE"
                BuildableName = "PocketComposer.app"
-               BlueprintName = "PocketComposer"
-               ReferencedContainer = "container:PocketComposer.xcodeproj">
+               BlueprintName = "PocketCompose"
+               ReferencedContainer = "container:PocketCompose.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1608ED55182404730018D2FE"
                BuildableName = "PocketComposerTests.xctest"
-               BlueprintName = "PocketComposerTests"
-               ReferencedContainer = "container:PocketComposer.xcodeproj">
+               BlueprintName = "PocketComposeTests"
+               ReferencedContainer = "container:PocketCompose.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1608ED31182404720018D2FE"
             BuildableName = "PocketComposer.app"
-            BlueprintName = "PocketComposer"
-            ReferencedContainer = "container:PocketComposer.xcodeproj">
+            BlueprintName = "PocketCompose"
+            ReferencedContainer = "container:PocketCompose.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1608ED31182404720018D2FE"
             BuildableName = "PocketComposer.app"
-            BlueprintName = "PocketComposer"
-            ReferencedContainer = "container:PocketComposer.xcodeproj">
+            BlueprintName = "PocketCompose"
+            ReferencedContainer = "container:PocketCompose.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1608ED31182404720018D2FE"
             BuildableName = "PocketComposer.app"
-            BlueprintName = "PocketComposer"
-            ReferencedContainer = "container:PocketComposer.xcodeproj">
+            BlueprintName = "PocketCompose"
+            ReferencedContainer = "container:PocketCompose.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -39,14 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1608ED32182404720018D2FE /* PocketComposer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketComposer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1608ED32182404720018D2FE /* PocketCompose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketCompose.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1608ED35182404720018D2FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1608ED37182404720018D2FE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		1608ED39182404720018D2FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		1608ED3D182404720018D2FE /* PocketComposer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PocketComposer-Info.plist"; sourceTree = "<group>"; };
+		1608ED3D182404720018D2FE /* PocketCompose-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PocketCompose-Info.plist"; sourceTree = "<group>"; };
 		1608ED3F182404720018D2FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1608ED41182404720018D2FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1608ED43182404720018D2FE /* PocketComposer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PocketComposer-Prefix.pch"; sourceTree = "<group>"; };
+		1608ED43182404720018D2FE /* PocketCompose-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PocketCompose-Prefix.pch"; sourceTree = "<group>"; };
 		1608ED44182404720018D2FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1608ED45182404720018D2FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1608ED48182404720018D2FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 		1608ED4D182404720018D2FE /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
 		1608ED4E182404720018D2FE /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
 		1608ED50182404720018D2FE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		1608ED56182404730018D2FE /* PocketComposerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketComposerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1608ED56182404730018D2FE /* PocketComposeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketComposeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1608ED57182404730018D2FE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		1608ED5F182404730018D2FE /* PocketComposerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PocketComposerTests-Info.plist"; sourceTree = "<group>"; };
 		1608ED61182404730018D2FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -107,8 +107,8 @@
 		1608ED33182404720018D2FE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1608ED32182404720018D2FE /* PocketComposer.app */,
-				1608ED56182404730018D2FE /* PocketComposerTests.xctest */,
+				1608ED32182404720018D2FE /* PocketCompose.app */,
+				1608ED56182404730018D2FE /* PocketComposeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,10 +151,10 @@
 		1608ED3C182404720018D2FE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1608ED3D182404720018D2FE /* PocketComposer-Info.plist */,
+				1608ED3D182404720018D2FE /* PocketCompose-Info.plist */,
 				1608ED3E182404720018D2FE /* InfoPlist.strings */,
 				1608ED41182404720018D2FE /* main.m */,
-				1608ED43182404720018D2FE /* PocketComposer-Prefix.pch */,
+				1608ED43182404720018D2FE /* PocketCompose-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -180,9 +180,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1608ED31182404720018D2FE /* PocketComposer */ = {
+		1608ED31182404720018D2FE /* PocketCompose */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1608ED67182404730018D2FE /* Build configuration list for PBXNativeTarget "PocketComposer" */;
+			buildConfigurationList = 1608ED67182404730018D2FE /* Build configuration list for PBXNativeTarget "PocketCompose" */;
 			buildPhases = (
 				1608ED2E182404720018D2FE /* Sources */,
 				1608ED2F182404720018D2FE /* Frameworks */,
@@ -192,14 +192,14 @@
 			);
 			dependencies = (
 			);
-			name = PocketComposer;
+			name = PocketCompose;
 			productName = PocketComposer;
-			productReference = 1608ED32182404720018D2FE /* PocketComposer.app */;
+			productReference = 1608ED32182404720018D2FE /* PocketCompose.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1608ED55182404730018D2FE /* PocketComposerTests */ = {
+		1608ED55182404730018D2FE /* PocketComposeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1608ED6A182404730018D2FE /* Build configuration list for PBXNativeTarget "PocketComposerTests" */;
+			buildConfigurationList = 1608ED6A182404730018D2FE /* Build configuration list for PBXNativeTarget "PocketComposeTests" */;
 			buildPhases = (
 				1608ED52182404730018D2FE /* Sources */,
 				1608ED53182404730018D2FE /* Frameworks */,
@@ -210,9 +210,9 @@
 			dependencies = (
 				1608ED5C182404730018D2FE /* PBXTargetDependency */,
 			);
-			name = PocketComposerTests;
+			name = PocketComposeTests;
 			productName = PocketComposerTests;
-			productReference = 1608ED56182404730018D2FE /* PocketComposerTests.xctest */;
+			productReference = 1608ED56182404730018D2FE /* PocketComposeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -229,7 +229,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1608ED2D182404720018D2FE /* Build configuration list for PBXProject "PocketComposer" */;
+			buildConfigurationList = 1608ED2D182404720018D2FE /* Build configuration list for PBXProject "PocketCompose" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -242,8 +242,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1608ED31182404720018D2FE /* PocketComposer */,
-				1608ED55182404730018D2FE /* PocketComposerTests */,
+				1608ED31182404720018D2FE /* PocketCompose */,
+				1608ED55182404730018D2FE /* PocketComposeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -298,7 +298,7 @@
 /* Begin PBXTargetDependency section */
 		1608ED5C182404730018D2FE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1608ED31182404720018D2FE /* PocketComposer */;
+			target = 1608ED31182404720018D2FE /* PocketCompose */;
 			targetProxy = 1608ED5B182404730018D2FE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -409,9 +409,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PocketComposer/PocketComposer-Prefix.pch";
-				INFOPLIST_FILE = "PocketComposer/PocketComposer-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "PocketComposer/PocketCompose-Prefix.pch";
+				INFOPLIST_FILE = "PocketComposer/PocketCompose-Info.plist";
+				PRODUCT_NAME = PocketCompose;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -422,9 +422,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PocketComposer/PocketComposer-Prefix.pch";
-				INFOPLIST_FILE = "PocketComposer/PocketComposer-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "PocketComposer/PocketCompose-Prefix.pch";
+				INFOPLIST_FILE = "PocketComposer/PocketCompose-Info.plist";
+				PRODUCT_NAME = PocketCompose;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -446,7 +446,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "PocketComposerTests/PocketComposerTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PocketComposeTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -465,7 +465,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PocketComposer/PocketComposer-Prefix.pch";
 				INFOPLIST_FILE = "PocketComposerTests/PocketComposerTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PocketComposeTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -474,7 +474,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1608ED2D182404720018D2FE /* Build configuration list for PBXProject "PocketComposer" */ = {
+		1608ED2D182404720018D2FE /* Build configuration list for PBXProject "PocketCompose" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1608ED65182404730018D2FE /* Debug */,
@@ -483,7 +483,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1608ED67182404730018D2FE /* Build configuration list for PBXNativeTarget "PocketComposer" */ = {
+		1608ED67182404730018D2FE /* Build configuration list for PBXNativeTarget "PocketCompose" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1608ED68182404730018D2FE /* Debug */,
@@ -492,7 +492,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1608ED6A182404730018D2FE /* Build configuration list for PBXNativeTarget "PocketComposerTests" */ = {
+		1608ED6A182404730018D2FE /* Build configuration list for PBXNativeTarget "PocketComposeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1608ED6B182404730018D2FE /* Debug */,
