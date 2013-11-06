@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Mode.h"
+#import "Scale.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

@@ -13,6 +13,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    Scale *testScale = [[Scale alloc] initWithRoot:@"C" type:@"major"];
+    NSLog(@"My scale is %@", testScale.notes);
+    Mode *testMode = [[Mode alloc] initWithRoot:@"A" type:@"aeolian"];
+    NSLog(@"My mode is %@", testMode.notes);
     return YES;
 }
 							
